@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 pr:
  - master
- - releases/*
  
 trigger:
-- main
+- master
+- releases/*
 
 pool:
   vmImage: 'ubuntu-latest'
